@@ -10,6 +10,7 @@ This codebase is inspired from https://github.com/ElrondNetwork/transaction-proc
 - [x] End to end crossed shard transactions processor
 - [ ] Persist full state of processor in redis-example incl. cross shard transaction dictionary
 - [ ] Unit tests
+- [ ] Implement concurrent shard processing (to take advantage of parallelism for multiple processor machines)
 
 ### Documentation
 - [ ] Usage section
